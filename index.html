@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | CMU IT</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    body { background: #f7f9fc; color: #222; line-height: 1.6; }
+
+    header {
+      background: #5b2d8b;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 { font-size: 2.2rem; }
+    header p { margin-top: 10px; opacity: 0.9; }
+
+    nav {
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #5b2d8b;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    h2 {
+      color: #5b2d8b;
+      margin-bottom: 20px;
+      border-left: 6px solid #5b2d8b;
+      padding-left: 10px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.7rem; }
+      nav { flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://cdni-cf.ch7.com/dm/sz-md/i/mg/4/7/6/476d833e855b8938f4f03c75fa325e48_13%E0%B8%81%E0%B8%B1%E0%B8%87%E0%B8%9F%E0%B8%B9%E0%B9%81%E0%B8%9E%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%B2_14.jpg" alt="proflie">
+  <h1>portfolio เทคโนโลยีสารสนเทศ (IT)</h1>
+  <p>Portfolio สำหรับยื่นเข้าศึกษา | มหาวิทยาลัยเชียงใหม่</p>
+</header>
+
+<nav>
+  <a href="#profile">Profile</a>
+  <a href="#journey">IT Journey</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#social">Activities</a>
+</nav>
+
+<section id="profile">
+  <h2>Profile & Educational Background</h2>
+  <div class="card">
+    <p><strong>ชื่อ:</strong> ธัญเทพ วงศ์ชมภู</p>
+    <p><strong>โรงเรียน:</strong> บุญวาทย์วิทยาลัย</p>
+    <p><strong>แผนการเรียน:</strong> Gifted Computer</p>
+    <p><strong>เกรดเฉลี่ย:</strong> 3.30</p>
+    <p><strong>รายวิชาที่เกี่ยวข้อง:</strong> คอมพิวเตอร์, เทคโนโลยีสารสนเทศ, การเขียนโปรแกรมพื้นฐาน</p>
+  </div>
+</section>
+
+<section id="journey">
+  <h2>My IT Journey & Passion</h2>
+  <div class="card">
+    <p>
+      แรงบันดาลใจด้านไอทีของผมเริ่มจากความหลงใหลในการใช้เทคโนโลยีแก้ปัญหา
+      ผมเรียนรู้การเขียนโปรแกรมด้วยตนเอง และเข้าใจว่าความผิดพลาดหรือ Bug
+      คือส่วนหนึ่งของการพัฒนา ทำให้ผมมีทักษะการคิดอย่างเป็นระบบ
+      และมีเป้าหมายในการศึกษาต่อที่มหาวิทยาลัยเชียงใหม่
+      เพื่อพัฒนานวัตกรรมที่เป็นประโยชน์ต่อสังคมอย่างยั่งยืน
+    </p>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Key Projects & Accomplishments</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Website Project</h3>
+      <p>พัฒนาเว็บไซต์ด้วย HTML / CSS แสดงโครงสร้างและการออกแบบหน้าเว็บ</p>
+    </div>
+    <div class="card">
+      <h3>School Problem Solver</h3>
+      <p>ใช้ความรู้ด้านไอทีช่วยแก้ปัญหาในโรงเรียน เช่น ระบบจัดการข้อมูล</p>
+    </div>
+    <div class="card">
+      <h3>Mini Programming Project</h3>
+      <p>ฝึก Logical Thinking ผ่าน Python และ C++</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Specialized Skills & Certificates</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Programming</h3>
+      <ul>
+        <li>Python (พื้นฐาน)</li>
+        <li>HTML / CSS</li>
+        <li>C++ / Java (พื้นฐาน)</li>
+        <li>SQL เบื้องต้น</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Tools</h3>
+      <ul>
+        <li>VS Code / PyCharm</li>
+        <li>Figma</li>
+        <li>GitHub</li>
+        <li>Canva / Photoshop</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Certificates</h3>
+      <ul>
+        <li>Python for Beginners</li>
+        <li>Google Data Analytics</li>
+        <li>CMU IT Workshop</li>
+        <li>IELTS / CMU-eTEGS</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="social">
+  <h2>Social Responsibility & Soft Skills</h2>
+  <div class="card">
+    <ul>
+      <li>Logical Thinking & Problem Solving</li>
+      <li>Teamwork & Communication</li>
+      <li>Adaptability และการเรียนรู้เทคโนโลยีใหม่</li>
+      <li>กิจกรรมจิตอาสาและการทำงานร่วมกับผู้อื่น</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Portfolio | Designed for Chiang Mai University</p>
+</footer>
+
+</body>
+</html>
